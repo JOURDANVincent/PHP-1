@@ -9,19 +9,24 @@
 <body>
 
     <h1>Partie 1 - ex6</h1>
-    <p>Créer une variable name et l'initialiser avec la valeur de votre choix.  
-Afficher : Bonjour + name + , comment vas tu ?.</p>
+    <p>
+        Créer une variable name et l'initialiser avec la valeur de votre choix.  
+        Afficher : Bonjour + name + , comment vas tu ?.
+    </p>
 
     <?php
-        
         // déclaration des variables 
         $name = 'Vincent';
 
         // affichage
         echo "Bonjour {$name} , comment vas-tu ?";
-        
-
     ?>
+
+    <!-- ou -->
+
+    <p>
+        <?="Rebonjour $name, comment vas-tu ?"; ?>
+    </p>
 
 </body>
 
